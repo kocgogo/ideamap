@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+C:\d2\ideamap\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+818250072.index
+498003906.index
+614908275.index
+2474920968.index
+953606444.index
