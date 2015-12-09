@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap
+   PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+   "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="Member">
+	<typeAlias alias="MemberVO" type="com.mycom.d3.vo.MemberVO" />
+		
+	<!-- <select id="selectMember" resultClass="MemberVO"
+		parameterClass="MemberVO">
+		select * from Member where id = #id# 
+	</select>
+	
+	<select id="selectMemberCorrect" resultClass="MemberVO"
+		parameterClass="MemberVO">
+		select * from Member where id = #id# and password = #password#
+	</select>	
+	
+    <select id="selectMembers" resultClass="MemberVO">
+		select * from Member 
+	</select>		
+	
+	<insert id="insertMember" parameterClass="MemberVO" >
+		INSERT INTO Member(id, password, M_name, M_affiliate, M_division, M_date) VALUES (#id#,#password#,#M_name#, #M_affiliate#, #M_division#, sysdate) 
+	</insert>
+	
+	<delete id="deleteMember" parameterClass="MemberVO" >
+		DELETE FROM Member WHERE id = #id# 
+	</delete>
+	
+	<update id="updateMember" parameterClass="MemberVO" >
+		UPDATE Member SET password = #password#, M_name = #M_name#, M_affiliate = #M_affiliate#, M_division = #M_division#, M_date = #M_date# WHERE ID = #id# 
+	</update>
+-->
+</sqlMap>

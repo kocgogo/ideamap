@@ -19,6 +19,8 @@ public class MainControl {
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("main");
 		View view = new View();	
+		view.setCenter("member/login");
+		view.setTop("topPage");
 		mv.addObject("view",view);		
 		
 		return mv;

@@ -19,7 +19,7 @@ public class MemberControl {
    @Qualifier("MemberBiz")  
    Biz biz;
    
-  @Deprecated
+ 
    @RequestMapping(value="/login.do") 
    public ModelAndView main(){
       ModelAndView mv = new ModelAndView();
@@ -41,14 +41,14 @@ public class MemberControl {
       mv.addObject("view",view);         
       return mv;
    }   
-  @Deprecated
+  
    @RequestMapping(value="/join.do") 
    public ModelAndView main2(){
       ModelAndView mv = new ModelAndView();
       mv.setViewName("main");
       View view = new View();   
       view.setCenter("member/join");
-      view.setTop("topPage");
+      view.setTop("topPage");   
       mv.addObject("view",view);   
       
       return mv;
